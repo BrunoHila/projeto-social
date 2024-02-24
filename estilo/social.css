@@ -10,8 +10,8 @@
   height: 0px;
 }
 
-
-img {width: 100vw;
+img {
+  width: 100vw;
 }
 
 a {
@@ -21,8 +21,9 @@ a {
   padding: 20px;
   text-align: center;
   font-weight: bolder;
-  text-decoration: 
-  none;
+  text-decoration: none;
 }
 
-a:hover{background-color: rgba(255, 0, 0, 0.83);}
+a:hover {
+  background-color: rgba(255, 0, 0, 0.83);
+}
