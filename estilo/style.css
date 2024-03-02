@@ -1,4 +1,10 @@
 @charset "UTF-8";
+ 
+@media (max-width: 768px){}
+
+@media (max-width: 992px){}
+
+@media (max-width: 1200px){}
 
 * {
   margin: 0px;
@@ -8,25 +14,28 @@
 
 html,
 body {
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
   background-color: black;
 }
 
 body {
   background: url(../imagens/tela-de-fundo-mesa.jpg) no-repeat center;
+
+  
   
 }
 
 main {
   position: relative;
-  height: 100vh;
+  height: 110vh;
 }
 
 section#telefone {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 57%;
+  left: 53%;
+  height: 50%;
   transform: translate(-50%, -50%);
   height: 637px;
   width: 311px;
@@ -34,8 +43,8 @@ section#telefone {
 }
 
 section#redes-sociais img {
-  margin: 10px;
-  width: 60px;
+  margin: 5px;
+  width: 50px;
   border-radius: 10%;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.129);
   box-sizing: border-box;
@@ -44,7 +53,7 @@ section#redes-sociais img {
 section#redes-sociais img:hover {
   border: 2px solid rgb(235, 235, 242);
   transform: translate(-3px, -3px);
-  transition: s;
+  transition: 0.1s;
 }
 
 iframe#tela {
