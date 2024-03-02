@@ -1,10 +1,12 @@
 @charset "UTF-8";
- 
-@media (max-width: 768px){}
 
-@media (max-width: 992px){}
+@media (max-width: 768px) {
+}
 
-@media (max-width: 1200px){}
+@media (max-width: 992px) {
+}
+@media (max-width: 1200px) {
+}
 
 * {
   margin: 0px;
@@ -14,38 +16,37 @@
 
 html,
 body {
-  height: 120vh;
+  height: 117vh;
   width: 100vw;
   background-color: black;
 }
 
 body {
   background: url(../imagens/tela-de-fundo-mesa.jpg) no-repeat center;
-
-  
-  
 }
 
 main {
   position: relative;
-  height: 110vh;
+  height: 120vh;
 }
 
 section#telefone {
   position: absolute;
-  top: 57%;
-  left: 53%;
-  height: 50%;
+  top: 52%;
+  left: 60%;
+  width: auto;
   transform: translate(-50%, -50%);
-  height: 637px;
+  height: 638px;
   width: 311px;
   background: url(../imagens/frame-iphone.png) no-repeat;
+
+
 }
 
 section#redes-sociais img {
   margin: 5px;
   width: 50px;
-  border-radius: 10%;
+  border-radius: 11%;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.129);
   box-sizing: border-box;
 }
